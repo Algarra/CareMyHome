@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@algarra/roomsolvers-utils':
-    specifier: ^1.2.0
-    version: 1.2.0
   '@storybook/store':
     specifier: ^7.6.17
     version: 7.6.17
@@ -148,10 +145,6 @@ packages:
   /@adobe/css-tools@4.4.4:
     resolution: {integrity: sha512-Elp+iwUx5rN5+Y8xLt5/GRoG20WGoDCQ/1Fb+1LiGtvwbDavuSk0jhD/eZdckHAuzcDzccnkv+rEjyWfRx18gg==}
     dev: true
-
-  /@algarra/roomsolvers-utils@1.2.0:
-    resolution: {integrity: sha512-F+vpVhcV5LlGpfXD6TmQWY+R2/UPTT++hehbjERMi47zCZkwtiuNmTcskjB1cYptpgCptSMwsW7wVLiOy0ODYQ==, tarball: https://npm.pkg.github.com/download/@algarra/roomsolvers-utils/1.2.0/3638f13ba911fd990be0ac4158fdb3df48150b03}
-    dev: false
 
   /@alloc/quick-lru@5.2.0:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}

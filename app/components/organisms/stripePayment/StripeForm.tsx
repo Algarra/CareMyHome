@@ -75,9 +75,7 @@ export const StripeForm: FC<{
           currency,
           date,
           itemsList: items.map((item) => ({
-            dates: item.dates,
             units: item.units,
-            persons: item.persons,
             productId: item.product._id,
           })),
         } as Order),
