@@ -97,6 +97,9 @@ devDependencies:
   '@types/bcrypt':
     specifier: ^6.0.0
     version: 6.0.0
+  '@types/image-size':
+    specifier: ^0.8.0
+    version: 0.8.0
   '@types/jsonwebtoken':
     specifier: ^9.0.10
     version: 9.0.10
@@ -110,11 +113,14 @@ devDependencies:
     specifier: ^7.0.4
     version: 7.0.4
   '@types/react':
-    specifier: ^19
+    specifier: ^19.2.6
     version: 19.2.6
   '@types/react-dom':
-    specifier: ^19
+    specifier: ^19.2.3
     version: 19.2.3(@types/react@19.2.6)
+  '@types/sharp':
+    specifier: ^0.32.0
+    version: 0.32.0
   eslint:
     specifier: ^9
     version: 9.39.1
@@ -2705,7 +2711,6 @@ packages:
   /@img/colour@1.0.0:
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
     engines: {node: '>=18'}
-    requiresBuild: true
 
   /@img/sharp-darwin-arm64@0.34.5:
     resolution: {integrity: sha512-imtQ3WMJXbMY4fxb/Ndp6HBTNVtWCUI0WdobyheGf5+ad6xX8VIDO8u2xE4qc/fr08CKG/7dDseFtn6M6g/r3w==}
@@ -4204,6 +4209,13 @@ packages:
     resolution: {integrity: sha512-r8Tayk8HJnX0FztbZN7oVqGccWgw98T/0neJphO91KkmOzug1KkofZURD4UaD5uH8AqcFLfdPErnBod0u71/qg==}
     dev: false
 
+  /@types/image-size@0.8.0:
+    resolution: {integrity: sha512-hMlhu25ji75dXQk2uZkN3pTJ+lWrgKr8M1fTpyyFvuu+SJZBdGa5gDm4BVNobWXHZbOU11mBj0vciYp7qOfAFg==}
+    deprecated: This is a stub types definition. image-size provides its own type definitions, so you do not need this installed.
+    dependencies:
+      image-size: 2.0.2
+    dev: true
+
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
@@ -4305,6 +4317,13 @@ packages:
       '@types/node': 20.19.25
       '@types/send': 0.17.6
     dev: false
+
+  /@types/sharp@0.32.0:
+    resolution: {integrity: sha512-OOi3kL+FZDnPhVzsfD37J88FNeZh6gQsGcLc95NbeURRGvmSjeXiDcyWzF2o3yh/gQAUn2uhh/e+CPCa5nwAxw==}
+    deprecated: This is a stub types definition. sharp provides its own type definitions, so you do not need this installed.
+    dependencies:
+      sharp: 0.34.5
+    dev: true
 
   /@types/webidl-conversions@7.0.3:
     resolution: {integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==}
