@@ -1,0 +1,25 @@
+import { Colors } from "../colors";
+import { iconSizes, iconColorClasses } from "./utils";
+
+export const AlertIcon = ({
+  size = 5,
+  color,
+}: {
+  size?: number;
+  color?: Colors;
+}) => (
+  <svg
+    className={` ${iconSizes[size]} ${color ? iconColorClasses[color] : ""} `}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      d="M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0zM12 16h.01"
+    />
+  </svg>
+);
